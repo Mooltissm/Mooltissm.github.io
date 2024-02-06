@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lobster&display=swap");
+body {
+  background-color: #000;
+  margin: 0;
+}
+
+.text {
+  font-size: 3rem;
+  position: absolute;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  line-height: 1;
+  color: #ffffff;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(224, 224, 224, 0.52), 0 0 21px rgba(224, 224, 224, 0.92), 0 0 34px rgba(224, 224, 224, 0.78), 0 0 54px rgba(224, 224, 224, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(224, 224, 242, 0.58), 0 0 22px rgba(224, 224, 242, 0.84), 0 0 38px rgba(224, 224, 207, 0.88), 0 0 60px rgb(224, 224, 242);
+  }
+}
+.link {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #828282;
+  text-decoration: none;
+}
+.link:focus, .link:hover {
+  color: #c6e2ff;
+  text-shadow: 0 0 2px rgba(202, 228, 225, 0.92), 0 0 10px rgba(202, 228, 225, 0.34), 0 0 4px rgba(30, 132, 242, 0.52), 0 0 7px rgba(30, 132, 242, 0.92), 0 0 11px rgba(30, 132, 242, 0.78), 0 0 16px rgba(30, 132, 242, 0.92);
+}
+
+body {
+  font-family: "Homemade Apple";
+  font-size: 2rem;
+}
+
+.container {
+  /*
+  background-image: url( "https://github.com/3in0/media/raw/master/files/paper.png" );
+  background-size: 100% 100%;
+  */
+  background: rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(10px);
+  max-width: 60ch;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  padding-top: 2rem;
+  border-radius: 20px;
+}
+
+.line {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1843137255);
+  height: 3rem;
+  position: relative;
+  padding-left: 0.5rem;
+}
+
+.line span {
+  position: absolute;
+  bottom: -24px;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.right span {
+  right: 0.5rem;
+}
+
+.indent span {
+  left: 15ch;
+}
+
+.double-indent span {
+  left: 25ch;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
